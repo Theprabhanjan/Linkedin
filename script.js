@@ -78,5 +78,5 @@ function mouseFollower(xscale, yscale) {
 
 
 loaderAnimation()   
-// mouseFollower();
+mouseFollower();
 postCreater();
