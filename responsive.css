@@ -1,0 +1,291 @@
+
+
+
+@media (max-width: 1200px) {
+  #leftscaffold {
+    width: 650px;
+  }
+  .middle {
+    width: 400px;
+  }
+  .display_none_1200{
+    display: none;
+  }
+post-global-nav{
+  padding: 0 10px;
+}
+
+}
+@media (max-width:1090px){
+  #right-nav a:nth-child(3) span{
+    display: none;
+  }
+}
+@media (max-width: 1060px) {
+  #global-nav img {
+    height: 30px;
+  }
+  .search-input {
+    display: flex;
+    align-items: center;
+    margin-left: 3.8vw;
+  }
+  .abd {
+    display: none;
+  }
+  .disply_none-1060 {
+    display: none;
+  }
+
+  #nav-option a span i {
+    display: none;
+  }
+ 
+  #right-nav {
+    gap: 5vw;
+  }
+ 
+}
+
+/* @card-resize */
+@media (max-width: 1008px) {
+  #leftscaffold {
+    width: 50%;
+  }
+
+  .profilecard {
+    width: 100%;
+  }
+  .bgimg .profile {
+    width: 7rem;
+    height: 7rem;
+    left: 1.7rem; /*@ profile_picture */
+    bottom: 4rem;
+  }
+}
+@media (max-width: 990px) {
+  .scrolldiv {
+    flex-direction: column;
+  }
+  .middle {
+    min-height: 100%;
+    width: 480px;
+  }
+  section {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  #nav-option {
+    gap: 8vw;
+  }
+  .display_none-900,
+  #nav-option a span {
+    display: none;
+  }
+  #nav-option a i {
+    font-size: 1.4rem;
+  }
+  .bgimg {
+    height: 40%;
+  }
+  .profilecard {
+    height: 35rem;
+  }
+}
+@media (max-width: 790px) {
+  .container {
+    flex-direction: column;
+  }
+  #scaffold {
+    width: 100%;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  #rightscaffold {
+    display: none;
+  }
+  #leftscaffold {
+    width: 40rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #leftscaffold .about {
+  }
+
+  .bgimg {
+    height: 35%;
+  }
+
+  .profilecard {
+    height: 25rem;
+  }
+  .myname span,
+  h6 a {
+    font-size: 0.78rem;
+  }
+  .college-name div span {
+    font-size: 0.79rem;
+  }
+  .bgimg .profile {
+    width: 8rem;
+    height: 8rem;
+    left: 2rem; /*@ profile_picture */
+    bottom: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .panel-heading {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #page2 {
+    min-height: 100;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    padding: 0;
+  }
+  .content {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 0;
+  }
+  #page2 {
+    width: 100%;
+  }
+  #page2 .left,
+  .middle {
+    width: 560px;
+  }
+
+  .myid {
+    margin-top: 0rem;
+    height: 20rem;
+    margin-left: 0;
+  }
+  .minicard-bg-img {
+    height: 140px;
+  }
+  .user-img {
+    top: 5.8rem;
+    left: 15rem;
+  }
+  .user-info {
+    padding-top: 1rem;
+  }
+  .display_768{
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  #leftscaffold {
+    margin-top: 0;
+    width: 98%;
+  }
+  #loader h1{
+    font-size: 10vw;
+  }
+}
+@media (max-width: 560px) {
+  .display_none_560,
+  #nav-option .I5,
+  #nav-option .I6 {
+    display: none;
+  }
+  #nav-option {
+    /* margin-left: 1vw; */
+    border-right: none;
+    gap: 14vw;
+    padding-right: 0;
+  }
+#right-nav a:nth-child(2){
+  display: none;
+}
+
+
+  .bottombar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #page2 {
+    width: 100%;
+  }
+  #page2 .left,
+  .middle,
+  .scrolldiv {
+    width: 100%;
+  }
+}
+@media (max-width: 538px) {
+  .user-img {
+    left: 40vw;
+  }
+}
+@media (max-width: 460px) {
+  /*^ only display: none */
+  .display_none_460 {
+    display: none;
+  }
+  #right-nav a:nth-child(3){
+    display: none;
+  }
+}
+@media (max-width: 405px) {
+  .decrp {
+    display: flex;
+    width: inherit;
+  }
+  .myname {
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .college-name {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .myname h2,
+  .myname h5 {
+    margin: 0;
+  }
+  .myname h2 {
+    margin-top: 0.5rem;
+  }
+
+  .bottombar {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .display_none_375 {
+    display: none;
+  }
+  .user-img {
+    left: 39vw;
+  }
+}
+@media (max-width: 345px) {
+  .bottombar a:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 306px) {
+  .bottombar {
+    display: none;
+  }
+  .user-img {
+    left: 36vw;
+  }
+}
