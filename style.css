@@ -42,7 +42,6 @@ body {
   align-items: center;
 }
 #loader h1{
-  /* display: none; */
   font-size: 4vw;
   color: transparent;
   background: linear-gradient(to Right, rgb(0, 255, 234), rgba(0, 255, 85, 0.685));
@@ -236,6 +235,9 @@ align-items: center;
   height: 40%;
   background: transparent;
   /* background-color: grey; */
+}
+.bgimg img{
+  object-fit: cover;
 }
 .bgimg .profile {
   position: relative;
@@ -448,13 +450,12 @@ align-items: center;
   width: 100%;
   border: inherit;
   border-radius: 10px 10px 0 0;
-  background-color: #03e5b7;
   position: relative;
 }
-.minicard-bg-img img{
+.minicard-bg-img video{
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
   border-radius: inherit;
 }
 .user-img{
@@ -603,24 +604,26 @@ post-global-nav{
   display: flex;
   flex-direction: column;
   gap: 5px;
-padding: 0 25px;}
+padding: 0 25px;
+}
 .post-nav{
   width: 100%;
   height: 60px;
   display: flex;
-  /* border: var(--border); */
+  align-items: center;
+  gap: 5px;
 
 }
-.post-nav a{
+.post-profile-pic{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.post-profile-pic img{
   height: 100%;
-display: flex;
-align-items: center;
-}
-.post-nav a img{
-
-  width: 80%;
-  height: 80%;
-  border-radius:50% ;
+  object-fit: cover;
 }
 .post-userinfo{
   display: flex;
@@ -660,7 +663,7 @@ font-weight: 600;
   width: 100%;
 }
 #post-pic-hover{
-  color: white;
+  color: rgba(255, 255, 255, 0.692);
   text-align: center;
   position: absolute;
   height: 35%;
@@ -671,8 +674,23 @@ font-weight: 600;
   background-color: #000000ce;
   transition: all ease 1s;
 }
+#post-pic-hover a{
+  position: absolute;
+  z-index: 9999;
+  bottom: -100;
+  }
 #post:hover #post-pic-hover{
   bottom: 0;
+}
+#post-pic-hover a {
+  color: white;
+  text-decoration: underline;
+  
+}
+#post-pic-hover a:hover i{
+  position: absolute;
+color: white;
+font-size: 2rem;
 }
 post-footer{
   display: flex;
