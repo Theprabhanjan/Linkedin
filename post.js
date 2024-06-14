@@ -34,13 +34,13 @@ function postCreater() {
       name: "Google",
     },
     {
-      postdets: " Second post !",
-      path: "https://images.unsplash.com/photo-1709526867397-2aa7f535868f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfGlVSXNuVnRqQjBZfHxlbnwwfHx8fHw%3D",
+      
+     
     },
     {
-      postdets:
-        "this is third post , i am sharing some imp points regarding to jsfjjjcoiwfiowe fwipfjw fwic winc wniown ciwniofnwfnfwfwn fo whf hf huhfjrtruirho wfi fhujtuturh ethat  ehty wer arer here so we fcan sole bf the pepopekle d  ",
-      path: "https://images.unsplash.com/photo-1709625862404-c363220c3823?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      
+        
+      
     },
   ];
 
