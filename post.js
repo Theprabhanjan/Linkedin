@@ -29,9 +29,10 @@ function postCreater() {
   var arr = [
     {
       postdets: "First post !",
-      path: "Assets/Media/connetionss.jpg",
+      
       link: "https://google.com",
       name: "Google",
+    youtubeSource:"<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZVvHHc5vvw?si=LZW2cWHXMpGL5Dho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     },
     {
       
@@ -66,6 +67,7 @@ function postCreater() {
        <div class="post-hero"> 
         <div class="post-pic">
           <img src="${obj.path}" alt="" />
+          <span>`${obj.youtubeSource}`</span>
           <div id="post-pic-hover">
             <span style="margin-right:5px"> Go to </span>
             <a href="${obj.link}" target="_blank"> ${obj.name} <i class="ri-arrow-right-up-line"></i></a>
