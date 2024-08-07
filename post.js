@@ -66,7 +66,7 @@ function postCreater() {
       </post-global-nav>
        <div class="post-hero"> 
         <div class="post-pic">
-          <img src="${obj.path}" alt="" />
+      
           <span>`${obj.youtubeSource}`</span>
           <div id="post-pic-hover">
             <span style="margin-right:5px"> Go to </span>
