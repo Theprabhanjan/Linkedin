@@ -25,11 +25,11 @@ function postCreater() {
   var clutter = "";
   var arr = [
     {
-      postdets: "First post !",
+      postdets: "Frontend & Backend small Projects",
       path: "Assets/Media/connetionss.jpg",
       link: "https://google.com",
       name: "Google",
-      youtubeSource:'<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZVvHHc5vvw?si=LZW2cWHXMpGL5Dho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+      youtubeSource:'<iframe width="560" height="315" src="https://www.youtube.com/embed/QWQFgjWnWQk?si=B7Qc1h8ub1s9W1Yn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
     }
    
   ];
