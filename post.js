@@ -19,9 +19,6 @@ function mouseFollower() {
 }
 
 
-window.addEventListener("mouseenter",function(){
-  console.log('hello');
-})
 
 
 function postCreater() {
@@ -32,16 +29,9 @@ function postCreater() {
       path: "Assets/Media/connetionss.jpg",
       link: "https://google.com",
       name: "Google",
-    },
-    {
-      
-     
-    },
-    {
-      
-        
-      
-    },
+      youtubeSource:'<iframe width="560" height="315" src="https://www.youtube.com/embed/6ZVvHHc5vvw?si=LZW2cWHXMpGL5Dho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+    }
+   
   ];
 
   arr.forEach(function (obj) {
@@ -64,12 +54,9 @@ function postCreater() {
         </div>
       </post-global-nav>
        <div class="post-hero"> 
-        <div class="post-pic">
-          <img src="${obj.path}" alt="" />
-          <div id="post-pic-hover">
-            <span style="margin-right:5px"> Go to </span>
-            <a href="${obj.link}" target="_blank"> ${obj.name} <i class="ri-arrow-right-up-line"></i></a>
-          </div>
+        <div class="post-pic ">
+          <span>${obj.youtubeSource}</span>
+          
         </div>
       </div>
       <hr width="95%" size="2px">
@@ -104,3 +91,8 @@ function smoothScrolling() {
 postCreater();
 mouseFollower();
 smoothScrolling();
+//hover div
+// <div id="post-pic-hover">
+//             <span style="margin-right:5px"> Go to </span>
+//             <a href="${obj.link}" target="_blank"> ${obj.name} <i class="ri-arrow-right-up-line"></i></a>
+//           </div>

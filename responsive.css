@@ -16,6 +16,7 @@ post-global-nav{
 }
 
 }
+
 @media (max-width:1090px){
   #right-nav a:nth-child(3) span{
     display: none;
@@ -86,13 +87,8 @@ post-global-nav{
   #nav-option a i {
     font-size: 1.4rem;
   }
-  .bgimg {
-    height: 40%;
-  }
-  .profilecard {
-    height: 35rem;
-  }
-}
+ 
+ 
 @media (max-width: 790px) {
   .container {
     flex-direction: column;
@@ -106,7 +102,8 @@ post-global-nav{
     margin-top: 3rem;
   }
   #rightscaffold {
-    display: none;
+    width: 80%;
+    padding-bottom: 2rem;
   }
   #leftscaffold {
     width: 40rem;
@@ -118,12 +115,10 @@ post-global-nav{
   }
 
   .bgimg {
-    height: 35%;
+    height: 10rem;
   }
 
-  .profilecard {
-    height: 25rem;
-  }
+  
   .myname span,
   h6 a {
     font-size: 0.78rem;
@@ -288,4 +283,5 @@ post-global-nav{
   .user-img {
     left: 36vw;
   }
+}
 }
